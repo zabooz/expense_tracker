@@ -34,6 +34,7 @@ function List({itemList,onRemove}:Props) {
                 <td>{item.category}</td>
                 <th>
                 <button
+                className='btn btn-danger'
                 onClick={() => onRemove(item.id)}
                 >delete</button>
                 </th>
